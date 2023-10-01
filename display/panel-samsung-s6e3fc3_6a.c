@@ -572,7 +572,7 @@ const struct brightness_capability s6e3fc3_6a_brightness_capability = {
 	.normal = {
 		.nits = {
 			.min = 2,
-			.max = 500,
+			.max = 600,
 		},
 		.level = {
 			.min = 4,
@@ -580,20 +580,20 @@ const struct brightness_capability s6e3fc3_6a_brightness_capability = {
 		},
 		.percentage = {
 			.min = 0,
-			.max = 62,
+			.max = 60,
 		},
 	},
 	.hbm = {
 		.nits = {
-			.min = 550,
-			.max = 800,
+			.min = 600,
+			.max = 1000,
 		},
 		.level = {
-			.min = 2389,
+			.min = 2900,
 			.max = 4095,
 		},
 		.percentage = {
-			.min = 62,
+			.min = 60,
 			.max = 100,
 		},
 	},
